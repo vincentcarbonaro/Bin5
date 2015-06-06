@@ -2,7 +2,7 @@ $(function () {
 
   $('nav ul li').click(function () {
 
-    $('.random').each(function () {
+    $('.content').children().each(function () {
       $(this).toggle(false)
     })
 
