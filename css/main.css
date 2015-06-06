@@ -21,7 +21,9 @@ html, body {
 /***********************/
 
 footer {
-  position: relative;
+  /*margin-top: 50px;*/
+  position: absolute;
+  width: 100%;
   background: black;
 }
 
@@ -57,6 +59,12 @@ header nav li {
   cursor: pointer;
   margin: auto;
   display: inline;
+  border-radius: 5px;
+}
+
+header nav li:hover {
+  background: white;
+  color: black;
 }
 
 /***********************/
@@ -101,4 +109,17 @@ h2 {
   width: 250px;
   float: left;
   padding: 10px;
+}
+
+/***********************/
+
+#gallery {
+  max-width: 475 px;
+  margin: auto;
+  text-align: center;
+}
+
+#gallery img {
+  margin:20px;
+  border: 3px solid #cacaca;
 }
