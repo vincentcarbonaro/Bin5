@@ -1,10 +1,11 @@
+/********Global Styles********/
 * {
   margin: 0;
 }
 html,
 body {
   min-height: 100%;
-  background: lightgray;
+  background: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 #map-canvas {
@@ -21,38 +22,22 @@ body {
   min-height: 100%;
 }
 /***********************/
-footer {
-  position: absolute;
-  width: 100%;
-  background-color: black;
-}
-footer nav {
-  padding: 10px;
-  color: white;
-  font-size: 20px;
-  height: 30px;
-  max-width: 800px;
-  margin: auto;
-}
-footer nav:before {
-  content: "\00a9 ";
-}
-/***********************/
 header {
-  font-size: 0.5em;
+  font-size: 1em;
   background-color: black;
+  height: 43px;
 }
 header nav {
-  height: 43px;
+  max-width: 95%;
   margin: auto;
 }
 header nav ul {
-  margin: 6 30 0 10;
+  margin-top: 14px;
 }
 header nav ul li {
   font-weight: 100;
-  margin-right: 20px;
-  font-size: 28px;
+  margin: 0 8;
+  padding-bottom: 8px;
   color: white;
   cursor: pointer;
   display: inline;
@@ -61,29 +46,40 @@ header nav ul li:hover {
   border-bottom: 3px solid white;
 }
 /***********************/
+footer {
+  font-size: 1em;
+  position: absolute;
+  width: 100%;
+  background-color: black;
+}
+footer nav {
+  padding: 10px;
+  color: #ffffff;
+  height: 30px;
+  max-width: 90%;
+  margin: auto;
+}
+footer nav:before {
+  content: "\00a9 ";
+}
+/***********************/
 h2 {
   backgounrd: white;
   color: black;
   text-align: center;
   padding: 10px;
   margin: 0;
-  font-size: 50px;
 }
 a {
-  text-decoration: underline;
-  color: blue;
+  color: grey;
 }
 /***********************/
 .content {
   padding: 10px 0;
-  max-width: 800px;
   margin: auto;
-  heigh: 100%;
+  height: 100%;
 }
 /***********************/
-#home {
-  font-size: 25px;
-}
 /***********************/
 #menu label {
   text-decoration: underline;
