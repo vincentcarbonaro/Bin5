@@ -7,13 +7,12 @@
       <link rel="stylesheet" href="css/reset.css" media="screen" title="no title" charset="utf-8">
       <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
       <link rel="stylesheet" href="css/fontface.css" media="screen" title="no title" charset="utf-8">
+      <link rel="stylesheet" href="css/new.css" media="screen" title="no title" charset="utf-8">
 
       <script src="vendor/jquery-2.1.3.min.js"></script>
       <script src="js/site.js"></script>
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAusAkZBuQxzyU67aCIYaW82oxXXj-1rUU"></script>
 
-      <script type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAusAkZBuQxzyU67aCIYaW82oxXXj-1rUU">
-      </script>
       <script type="text/javascript">
         function initialize() {
 
@@ -42,194 +41,195 @@
 
     <body>
 
-        <div class="wrapper">
-          <!-- why is text so large? it will not change when setting .5em etc -->
-          <header>
-            <nav class="nav">
-              <!-- must figure out how to make logo less pixelated -tried many ways of saving -->
-              <a href="#">
-                 <img class="logo_white left home" src="img/logo_white_small.svg">
-              </a>
-              <ul class="right">
-                  <li class="home">ABOUT</li>
-                  <li class="menu">MENU</li>
-                  <li class="gallery">GALLERY</li>
-                  <li class="contact">CONTACT</li>
+      <div class="wrapper">
 
+        <header>
+          <nav class="nav">
+            <a href="#"><img class="logo_white left home" src="img/logo_white_small.svg"></a>
+            <ul class="right">
+              <li class="home">ABOUT</li>
+              <li class="menu">MENU</li>
+              <li class="gallery">GALLERY</li>
+              <li class="contact">CONTACT</li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="content">
+
+          <div id="home">
+            <img width="100%" class="home_img" src="img/home_img.jpg">
+            <a href="http://www.silive.com/readerschoice/2015/05/watch_bin_5_your_best_restaura.html#incart_river_mobileshort">Voted Staten Island's Best Restraunt of 2015</a>, Bin 5 is the premiere boutique hideaway of Staten Island's north shore.
+            <br><br>
+            The restaurant's name Bin 5 manifested from the image of a picturesque wine bin intertwined with the fact that it is the fifth restaurant opened by the Da Noi family. Originally opened to showcase the talents of the award-winning chef Frank Bilotti, Bin 5 continues to keep the promise of exclusivity and originality with the perfect fusion of tradition and innovation.
+            <br><br>
+            Customers continue to call "Bin" their home-away-from-home as service is always personal and guests are always treated like family. Make the trip and peer into the nooks and crannies of the Da Noi restaurant group for a treasure of culinary delights and a truly unique dining experience.
+          </div>
+
+          <div id="menu" class="incative">
+
+            <div class="salads group">
+              <label>Fresh Salads</label>
+              <ul class="group">
+                <li><label>Baby Arugula</label>
+                with dried cranberries + walnuts, tossed in a pomegranate vinaigrette, topped with fresh goat cheese
+                $8.95</li>
+
+                <li><label>Fresh Mozzarella Salad</label>
+                with roasted tomatoes, roasted peppers + grilled zucchini finished with balsamic glaze
+                $10.95</li>
+
+                <li><label>Mesclun Peach Salad</label>
+                mesclun greens with grilled peaches + mascarpone cheese in a honey vinaigrette
+                $8.95</li>
+
+                <li><label>Panzanella Salad</label>
+                toasted bread with tomatoes, onions, garlic + fresh basil in white balsamic + extra virgin olive oil
+                $8.95</li>
+
+                <li><label>Mesclun Shrimp Salad</label>
+                mesclun greens tossed in a creamy balsamic dressing with grilled shrimp
+                $12.95<li>
               </ul>
-            </nav>
-          </header>
-
-          <div class="content">
-              <img width="100%" class="home_img" src="img/home_img.jpg">
-              <a href="http://www.silive.com/readerschoice/2015/05/watch_bin_5_your_best_restaura.html#incart_river_mobileshort">Voted Staten Island's Best Restraunt of 2015</a>, Bin 5 is the premiere boutique hideaway of Staten Island's north shore.
-              <br><br>
-              The restaurant's name Bin 5 manifested from the image of a picturesque wine bin intertwined with the fact that it is the fifth restaurant opened by the Da Noi family. Originally opened to showcase the talents of the award-winning chef Frank Bilotti, Bin 5 continues to keep the promise of exclusivity and originality with the perfect fusion of tradition and innovation.
-              <br><br>
-              Customers continue to call "Bin" their home-away-from-home as service is always personal and guests are always treated like family. Make the trip and peer into the nooks and crannies of the Da Noi restaurant group for a treasure of culinary delights and a truly unique dining experience.
-
             </div>
 
-            <div id="menu" class="incative">
-
-              <div class="salads group">
-                <label>Fresh Salads</label>
-                <ul>
-                  <li><label>Baby Arugula</label>
-                  with dried cranberries + walnuts, tossed in a pomegranate vinaigrette, topped with fresh goat cheese
+            <div class="appetizers group">
+              <label>Appetizers</label>
+              <ul class="group">
+                  <li>Home Made Crepes
+                  filled with ricotta cheese + minced mushrooms over a pesto sauce topped with fontina cheese
+                  $9.95</li>
+                  <li>Vegetable Napoleon
+                  layered with grilled zucchini, eggplant, mushroom + roasted pepper in a roasted tomato sauce, topped with muenster cheese $9.95</li>
+                  <li>Spring Rolls
+                  stuffed with cabbage, bok choy, + carrots, served with sweet chili dipping sauce
                   $8.95</li>
-
-                  <li><label>Fresh Mozzarella Salad</label>
-                  with roasted tomatoes, roasted peppers + grilled zucchini finished with balsamic glaze
-                  $10.95</li>
-
-                  <li><label>Mesclun Peach Salad</label>
-                  mesclun greens with grilled peaches + mascarpone cheese in a honey vinaigrette
-                  $8.95</li>
-
-                  <li><label>Panzanella Salad</label>
-                  toasted bread with tomatoes, onions, garlic + fresh basil in white balsamic + extra virgin olive oil
-                  $8.95</li>
-
-                  <li><label>Mesclun Shrimp Salad</label>
-                  mesclun greens tossed in a creamy balsamic dressing with grilled shrimp
-                  $12.95<li>
+                  <li>Fried Calamari
+                  served with chef's signature espresso-soy reduction
+                  $11.95</li>
+                  <li>Grilled Eggplant Rollatini
+                  stuffed with goat cheese + arugula, topped with diced tomato + parmesan cheese, finished with a drizzle of sun-dried tomato oil
+                  $9.95</li>
+                  <li>Coconut Shrimp
+                  served over grilled pineapple with a piña colada sauce
+                  $11.95</li>
+                  <li>Crab Martini
+                  layered with mango, crabmeat + avocado with a honey, lime, cilantro dressing
+                  $11.95</li>
+                  <li>Duck & Scallion Rolls
+                  served with a blood orange, hoisin, balsamic dipping sauce
+                  $9.95</li>
+                  <li>Clams
+                  saut&eacute;ed with roasted tomatoes in a white wine-pancetta sauce
+                  $13.95</li>
+                  <li>Whole Portobello
+                  layered with asparagus, roasted peppers + shredded gorgonzola cheese with a roasted tomato sauce
+                  $12.95</li>
                 </ul>
-              </div>
-
-              <div class="appetizers group">
-                <label>Appetizers</label>
-                <ul>
-                    <li>Home Made Crepes
-                    filled with ricotta cheese + minced mushrooms over a pesto sauce topped with fontina cheese
-                    $9.95</li>
-                    <li>Vegetable Napoleon
-                    layered with grilled zucchini, eggplant, mushroom + roasted pepper in a roasted tomato sauce, topped with muenster cheese $9.95</li>
-                    <li>Spring Rolls
-                    stuffed with cabbage, bok choy, + carrots, served with sweet chili dipping sauce
-                    $8.95</li>
-                    <li>Fried Calamari
-                    served with chef's signature espresso-soy reduction
-                    $11.95</li>
-                    <li>Grilled Eggplant Rollatini
-                    stuffed with goat cheese + arugula, topped with diced tomato + parmesan cheese, finished with a drizzle of sun-dried tomato oil
-                    $9.95</li>
-                    <li>Coconut Shrimp
-                    served over grilled pineapple with a piña colada sauce
-                    $11.95</li>
-                    <li>Crab Martini
-                    layered with mango, crabmeat + avocado with a honey, lime, cilantro dressing
-                    $11.95</li>
-                    <li>Duck & Scallion Rolls
-                    served with a blood orange, hoisin, balsamic dipping sauce
-                    $9.95</li>
-                    <li>Clams
-                    saut&eacute;ed with roasted tomatoes in a white wine-pancetta sauce
-                    $13.95</li>
-                    <li>Whole Portobello
-                    layered with asparagus, roasted peppers + shredded gorgonzola cheese with a roasted tomato sauce
-                    $12.95</li>
-                  </ul>
-              </div>
-
-              <div class="entrees group">
-                <label>Entr&eacute;es</label>
-                <ul>
-                  <li><label>Veal Cannellini</label>
-                  veal scaloppini stuffed with cannellini bean puree in a lemon, butter, sage sauce
-                  $19.95</li>
-                  <li><label>Veal Muffaletta</label>
-                  veal scaloppini layered with spinach, ricotta + a thin slice of prosciutto
-                  saut&eacute;ed in a dijon mustard cream sauce
-                  $19.95</li>
-                  <li><label>Veal Chop</label>
-                  bone-in veal chop, pan seared in a white wine, sage, truffle-oil sauce
-                  topped with shredded parmesan cheese
-                  $29.95</li>
-                  <li><label>Meat Medley</label>
-                  chicken, filet mignon + slices of sweet Italian sausage, with mushrooms + potatoes in white wine, garlic, rosemary, lemon + red wine vinegar
-                  $20.95</li>
-                  <li><label>Chicken Affumicate</label>
-                  breast of chicken layered with grilled eggplant, smoked mozzarella + tomato in a lemon, white wine sauce
-                  $18.95</li>
-                  <li><label>Hawaiian Chicken</label>
-                  chicken breast over grilled pineapple, in a champagne cream sauce
-                  $18.95</li>
-                  <li><label>Bittersweet Chicken</label>
-                  chicken breast, pan seared with kalamata olives, grapes + onions in a red, vermouth sauce
-                  $18.95</li>
-                  <li><label>Pork Chop Diablo</label>
-                  pan seared with hot cherry peppers in a champagne, vinegar sauce
-                  $22.95</li>
-                  <li><label>Pork Milanese</label>
-                  pork cutlets encrusted with panko breadcrumbs dressed with a hoisin, balsamic glaze
-                  $20.95</li>
-                  <li><label>Filet Mignon Au Poivre</label>
-                  black pepper encrusted filet mignon (8 oz.) in a Scotch, mustard cream sauce, served over buttered crostinis
-                  $31.95</li>
-                  <li><label>Chef's Surf & Turf Twist</label>
-                  medallions of filet mignon stuffed with lobster meat + pan seared in a champagne, butter sauce
-                  $34.95</li>
-                  <li><label>Salmon&eacute;</label>
-                  potato encrusted salmon in a roasted tomato, mascarpone cheese sauce
-                  $20.95</li>
-                  <li><label>Sole</label>
-                  filet of sole pan seared with clams, shitake mushrooms + cuttlefish in a white wine butter sauce
-                  $22.95</li>
-                  <li><label>Linguini Fra Diavolo</label>
-                  In a spicy tomato sauce with saut&eacute;ed calamari, shrimp + clams
-                  $20.95</li>
-                  <li><label>Black Ink Linguini</label>
-                  squid ink linguini in a pesto, cream, + tomato sauce with saut&eacute;ed shrimp
-                  $20.95</li>
-                  <li><label>Penne + Sausage</label>
-                  penne with sliced sweet Italian sausage, hot cherry peppers, grilled eggplant, + plum tomato in garlic + oil
-                  $19.95</li>
-                </ul>
-              </div>
-
             </div>
 
-            <div id="gallery" class="incative">
-              <img height="300px" src="" alt="lol" />
-              <img height="300px" src="" alt="lol" />
-              <img height="300px" src="" alt="lol" />
-              <img height="300px" src="" alt="lol" />
-              <img height="300px" src="" alt="lol" />
-              <img height="300px" src="" alt="lol" />
-              <img height="300px" src="" alt="lol" />
-              <img height="300px" src="" alt="lol" />
+            <div class="entrees group">
+              <label>Entr&eacute;es</label>
+              <ul class="group">
+                <li><label>Veal Cannellini</label>
+                veal scaloppini stuffed with cannellini bean puree in a lemon, butter, sage sauce
+                $19.95</li>
+                <li><label>Veal Muffaletta</label>
+                veal scaloppini layered with spinach, ricotta + a thin slice of prosciutto
+                saut&eacute;ed in a dijon mustard cream sauce
+                $19.95</li>
+                <li><label>Veal Chop</label>
+                bone-in veal chop, pan seared in a white wine, sage, truffle-oil sauce
+                topped with shredded parmesan cheese
+                $29.95</li>
+                <li><label>Meat Medley</label>
+                chicken, filet mignon + slices of sweet Italian sausage, with mushrooms + potatoes in white wine, garlic, rosemary, lemon + red wine vinegar
+                $20.95</li>
+                <li><label>Chicken Affumicate</label>
+                breast of chicken layered with grilled eggplant, smoked mozzarella + tomato in a lemon, white wine sauce
+                $18.95</li>
+                <li><label>Hawaiian Chicken</label>
+                chicken breast over grilled pineapple, in a champagne cream sauce
+                $18.95</li>
+                <li><label>Bittersweet Chicken</label>
+                chicken breast, pan seared with kalamata olives, grapes + onions in a red, vermouth sauce
+                $18.95</li>
+                <li><label>Pork Chop Diablo</label>
+                pan seared with hot cherry peppers in a champagne, vinegar sauce
+                $22.95</li>
+                <li><label>Pork Milanese</label>
+                pork cutlets encrusted with panko breadcrumbs dressed with a hoisin, balsamic glaze
+                $20.95</li>
+                <li><label>Filet Mignon Au Poivre</label>
+                black pepper encrusted filet mignon (8 oz.) in a Scotch, mustard cream sauce, served over buttered crostinis
+                $31.95</li>
+                <li><label>Chef's Surf & Turf Twist</label>
+                medallions of filet mignon stuffed with lobster meat + pan seared in a champagne, butter sauce
+                $34.95</li>
+                <li><label>Salmon&eacute;</label>
+                potato encrusted salmon in a roasted tomato, mascarpone cheese sauce
+                $20.95</li>
+                <li><label>Sole</label>
+                filet of sole pan seared with clams, shitake mushrooms + cuttlefish in a white wine butter sauce
+                $22.95</li>
+                <li><label>Linguini Fra Diavolo</label>
+                In a spicy tomato sauce with saut&eacute;ed calamari, shrimp + clams
+                $20.95</li>
+                <li><label>Black Ink Linguini</label>
+                squid ink linguini in a pesto, cream, + tomato sauce with saut&eacute;ed shrimp
+                $20.95</li>
+                <li><label>Penne + Sausage</label>
+                penne with sliced sweet Italian sausage, hot cherry peppers, grilled eggplant, + plum tomato in garlic + oil
+                $19.95</li>
+              </ul>
             </div>
 
-            <div id="contact" class="incative">
-              Bin5<br>
-              1233 Bay Street<br>
-              Staten Island, 10305<br><br>
+          </div>
 
-              Phone: 718-448-7275<br><br>
+          <div id="gallery" class="incative">
+            <img height="300px" src="" alt="lol" />
+            <img height="300px" src="" alt="lol" />
+            <img height="300px" src="" alt="lol" />
+            <img height="300px" src="" alt="lol" />
+            <img height="300px" src="" alt="lol" />
+            <img height="300px" src="" alt="lol" />
+            <img height="300px" src="" alt="lol" />
+            <img height="300px" src="" alt="lol" />
+          </div>
 
-              <a href="#">Get Directions</a><br><br>
+          <div id="contact" class="incative">
+            Bin5<br>
+            1233 Bay Street<br>
+            Staten Island, 10305<br><br>
 
-              Hours:<br>
-              Mon:Closed<br>
-              Tue:3:00PM - 10:00PM<br>
-              Wed:3:00PM - 10:00PM<br>
-              Thu:3:00PM - 10:00PM<br>
-              Fri:3:00PM - 11:00PM<br>
-              Sat:3:00PM - 11:00PM<br>
-              Sun:2:00PM - 9:00PM<br>
+            Phone: 718-448-7275<br><br>
 
-              <br>
+            <a href="#">Get Directions</a><br><br>
 
-              <div id="map-canvas"></div>
+            Hours:<br>
+            Mon:Closed<br>
+            Tue:3:00PM - 10:00PM<br>
+            Wed:3:00PM - 10:00PM<br>
+            Thu:3:00PM - 10:00PM<br>
+            Fri:3:00PM - 11:00PM<br>
+            Sat:3:00PM - 11:00PM<br>
+            Sun:2:00PM - 9:00PM<br>
 
-            </div>
+            <br>
+
+            <div id="map-canvas"></div>
 
           </div>
 
         </div>
 
+        <footer>
+          <nav>
+            This is the footer.
+          </nav>
+        </footer>
 
+      </div>
 
     </body>
 </html>
