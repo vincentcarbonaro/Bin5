@@ -7,7 +7,6 @@ $(function () {
     });
 
     $('#' + this.classList[0]).toggle(true);
-    console.log(this.classList[0]);
   });
 
 });
