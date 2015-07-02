@@ -1,7 +1,6 @@
 .first {
   height: 500px;
 }
-
 .b1 {
   position: absolute;
   background: white;
@@ -15,7 +14,6 @@
   width: 500px;
   font-weight: 100;
 }
-
 .b2 {
   position: absolute;
   background: white;
@@ -30,8 +28,6 @@
   padding: 10px 0;
   font-weight: 400;
 }
-
-
 .second {
   height: 500px;
   text-align: center;
